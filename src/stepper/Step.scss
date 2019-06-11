@@ -1,0 +1,36 @@
+.step {
+    padding: 16px 0;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    //border-bottom: 2px solid #cacaca;
+    .title{
+        padding: 8px;
+        text-align: center;
+    }
+
+    .progressbar {
+        background-color: lightgray;
+        .current{
+            height: 5px;
+
+            background-color: orange;
+            width: 10%; /* Adjust with JavaScript */
+          }
+          .valid {
+            height: 5px;
+
+            background-color: orange;
+              width: 100%;
+          }
+          .untouched{
+            height: 5px;
+
+            width: 0%;
+          }
+      }
+      
+    
+     
+  
+}

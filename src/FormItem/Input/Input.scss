@@ -1,0 +1,33 @@
+.input {
+  .title {
+    padding: 8px;
+    text-align: start;
+    width: 50%;
+  }
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  .text-input {
+    width: 50%;
+    border-radius: 8px;
+    height: 28px;
+    outline: none;
+  }
+  .invalid {
+    border: 1px solid rgb(204, 49, 49);
+    background-color: rgb(255, 223, 223);
+  }
+  .valid {
+    border: 1px solid orange;
+    background-color: white;
+  }
+  .error{
+    font-size: 0.8rem;
+    color: #cc3131;
+    width: 50%;
+    margin-top: 4px;
+    text-align: end;
+  }
+}

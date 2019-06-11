@@ -1,0 +1,17 @@
+.stepper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 32px 0;
+    align-items: flex-end;
+    .separator{
+        background: transparent;
+        border: 1px solid lightgray;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 9px
+    }
+}
