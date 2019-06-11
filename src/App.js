@@ -58,8 +58,7 @@ class App extends React.Component {
     }
   }
   componentDidMount() {
-    axios.get(' http://www.mocky.io/v2/5cff6faa3200008000eac624')
-   // axios.get('http://localhost:9888/api/questionnaire')
+    axios.get('http://localhost:9888/api/questionnaire')
       .then((response) => {
         this.setState({
           loading: false,
